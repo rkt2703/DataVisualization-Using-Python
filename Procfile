@@ -1,1 +1,1 @@
-web: gunicorn app:myfirst app
+web: sh setup.sh
