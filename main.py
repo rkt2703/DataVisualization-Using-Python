@@ -12,11 +12,11 @@ import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns 
 
-
+st.title("Made By : Ravi Trivedi" )
 
 def main():
 	"""Semi Automated ML App with Streamlit """
-
+    
 	activities = ["EDA","CHARTS"]	
 	choice = st.sidebar.selectbox("Select Activities From Below",activities)
 
@@ -104,6 +104,8 @@ def main():
 					cust_plot= df[selected_columns_names].plot(kind=type_of_plot)
 					st.write(cust_plot)
 					st.pyplot()
+    
+
     
 
 
