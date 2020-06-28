@@ -12,7 +12,7 @@ import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns 
 
-st.title("Made By : Ravi Trivedi" )
+
 
 def main():
 	"""Semi Automated ML App with Streamlit """
